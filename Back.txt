@@ -1,0 +1,9 @@
+El server debe manejar las siguientes peticiones:
+
+GET de lista de puntuaciones: La lista estará guardada en un array en un archivo Json, cada entrada sera tendra dos propiedades {nombre: asdasd, puntos:xxx}
+
+POST de la lista de puntuaciones: recibira por body un objeto {nombre, puntos}, verificara si el nombre esta en la lista y lo agregará si no está y si esta y el puntaje recibido es mayor actualizara la lista y el archivo
+
+GET de una lista de preguntas de acuerdo a ciertos parámetros
+
+GET de lista de categorias
